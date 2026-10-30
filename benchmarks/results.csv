@@ -1,0 +1,16 @@
+table,query,dry_run_mb,processed_mb,billed_mb,slot_ms,elapsed_ms
+fct_plain,Q1_select_star,2972.8,2972.8,2973.8,293508,10664
+fct_plain,Q2_two_columns,270.4,270.4,270.5,1299,111
+fct_plain,Q3_one_month,270.4,270.4,270.5,936,100
+fct_plain,Q4_one_seller,563.2,563.2,564.1,728,103
+fct_plain,Q5_seller_and_month,653.4,653.4,654.3,1195,93
+fct_part,Q1_select_star,2972.8,2972.8,2973.8,166969,5580
+fct_part,Q2_two_columns,270.4,270.4,270.5,440,128
+fct_part,Q3_one_month,19.7,19.7,19.9,33,105
+fct_part,Q4_one_seller,563.2,563.2,564.1,279,100
+fct_part,Q5_seller_and_month,47.6,47.6,48.2,29,70
+fct_part_clust,Q1_select_star,2972.8,2972.8,2973.8,190986,8422
+fct_part_clust,Q2_two_columns,270.4,270.4,270.5,1497,128
+fct_part_clust,Q3_one_month,19.7,19.7,19.9,101,86
+fct_part_clust,Q4_one_seller,563.2,124.3,124.8,336,140
+fct_part_clust,Q5_seller_and_month,47.6,1.2,10.5,10,64
