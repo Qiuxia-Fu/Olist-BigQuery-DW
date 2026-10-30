@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: olist_raw
+    database: "{{ env_var('GCP_PROJECT_ID') }}"
+    schema: olist_raw
+    tables:
+      - name: orders
+      - name: order_items
+      - name: customers
+      - name: products
+      - name: sellers
+      - name: order_payments
